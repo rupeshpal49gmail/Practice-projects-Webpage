@@ -30,11 +30,15 @@
   padding: 0 30px;
   cursor: pointer;
 }
-.navbar-list ul li:hover {
-  font-size: 40px;
-  font-weight: 30px;
-  color: aqua;
-  transition: ease-in-out;
+
+.btn {
+  background-color: #f5e5e5;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.btn:hover {
+  background-color: #d4cece;
+  color: #1d1e4c;
 }
 .content {
   max-width: 1000px;
